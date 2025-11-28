@@ -23,7 +23,7 @@ export function TokenList({ title, tokens, onTokenClick, className }: TokenListP
     };
 
     return (
-        <div className={`flex flex-col h-full bg-[#0b0b0d] border-primaryStroke/30 ${className}`}>
+        <div className={`flex flex-col h-full bg-[#111111] border border-[#27272a] overflow-hidden ${className}`}>
             <ColumnHeader
                 title={title}
                 count={tokens.length}
@@ -32,7 +32,7 @@ export function TokenList({ title, tokens, onTokenClick, className }: TokenListP
                 onSort={handleSort}
             />
 
-            <div className="flex flex-col overflow-y-auto max-h-[calc(100vh-200px)] no-scrollbar">
+            <div className="flex flex-col overflow-y-auto max-h-[calc(100vh-200px)] custom-scrollbar">
                 {tokens.map((token) => (
                     <TokenRow
                         key={token.id}

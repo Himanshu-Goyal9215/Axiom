@@ -8,37 +8,37 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                background: "rgb(var(--background) / <alpha-value>)",
-                foreground: "rgb(var(--foreground) / <alpha-value>)",
+                background: "#09090b", // Slightly darker than #0a0a0a
+                foreground: "#ededed",
                 card: {
-                    DEFAULT: "rgb(var(--card) / <alpha-value>)",
-                    foreground: "rgb(var(--card-foreground) / <alpha-value>)",
-                    hover: "rgb(var(--card-hover) / <alpha-value>)",
+                    DEFAULT: "#111111",
+                    foreground: "#ededed",
+                    hover: "#1a1a1a",
                 },
                 border: {
-                    DEFAULT: "rgb(var(--border) / <alpha-value>)",
-                    hover: "rgb(var(--border-hover) / <alpha-value>)",
+                    DEFAULT: "#27272a",
+                    hover: "#3f3f46",
                 },
                 primary: {
-                    DEFAULT: "rgb(var(--primary) / <alpha-value>)",
-                    foreground: "rgb(var(--primary-foreground) / <alpha-value>)",
+                    DEFAULT: "#ededed",
+                    foreground: "#09090b",
                 },
-                secondary: "rgb(var(--secondary) / <alpha-value>)",
-                muted: "rgb(var(--muted) / <alpha-value>)",
+                secondary: "#a1a1aa",
+                muted: "#52525b",
                 accent: {
-                    green: "rgb(var(--accent-green) / <alpha-value>)",
-                    red: "rgb(var(--accent-red) / <alpha-value>)",
-                    yellow: "rgb(var(--accent-yellow) / <alpha-value>)",
+                    green: "#10b981",
+                    red: "#ef4444",
+                    yellow: "#eab308",
                 },
-                virtualCurve: "#6366f1", // Placeholder for virtual curve color
-                backgroundSecondary: "#1a1d20",
+                virtualCurve: "#6366f1",
+                backgroundSecondary: "#18181b",
                 textPrimary: "#ffffff",
                 textSecondary: "#a1a1aa",
                 textTertiary: "#71717a",
                 primaryBlueHover: "#3b82f6",
                 primaryGreen: "#10b981",
                 primaryRed: "#ef4444",
-                primaryStroke: "#3f3f46",
+                primaryStroke: "#27272a",
                 primaryYellow: "#eab308",
             },
             borderRadius: {

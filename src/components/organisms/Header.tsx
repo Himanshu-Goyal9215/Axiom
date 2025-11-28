@@ -35,9 +35,6 @@ export function Header() {
                             />
                         </div>
                         <span className="text-white font-bold text-lg tracking-tight">AXIOM</span>
-                        <span className="px-1.5 py-0.5 text-[10px] font-semibold bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded">
-                            Pro
-                        </span>
                     </div>
 
                     {/* Navigation Links */}
@@ -47,8 +44,8 @@ export function Header() {
                                 key={item.name}
                                 href={item.href}
                                 className={`px-3 py-2 text-sm font-medium rounded-md transition-colors ${item.active
-                                        ? 'text-[#3b82f6] bg-[#3b82f6]/10'
-                                        : 'text-textSecondary hover:text-[#3b82f6] hover:bg-[#3b82f6]/5'
+                                    ? 'text-[#3b82f6] bg-[#3b82f6]/10'
+                                    : 'text-white hover:text-[#3b82f6] hover:bg-[#3b82f6]/5'
                                     }`}
                             >
                                 {item.name}

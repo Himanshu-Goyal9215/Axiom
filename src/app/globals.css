@@ -55,7 +55,26 @@
     animation: flash-down 500ms ease-out;
   }
 
-  /* Hide scrollbar but allow scroll */
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+  }
+
+  /* Hide scrollbar but allow scroll utility */
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }

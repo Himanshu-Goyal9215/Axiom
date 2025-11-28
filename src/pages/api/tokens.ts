@@ -66,6 +66,7 @@ const generateToken = (index: number, category: "new" | "final" | "migrated"): T
         liquidityUSD: Math.floor(baseMarketCap * 0.1 * randomMultiplier),
         change1h: (Math.random() * 40) - 20,
         change24h: (Math.random() * 200) - 100,
+        topHoldersPercent: Math.floor(Math.random() * 40) + 30, // Random between 30-70%
         category,
         flags: Math.random() > 0.5 ? ['DS'] : undefined,
         virtualCurve: index % 3 === 0,
