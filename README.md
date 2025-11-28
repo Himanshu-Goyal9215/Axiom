@@ -98,25 +98,3 @@ The system is designed to feel alive, mirroring the actual Axiom Trade Pulse pla
     Navigate to [http://localhost:3000/pulse](http://localhost:3000/pulse).
 
 ---
-
-## 🧪 Testing
-
--   **Unit Tests**:
-    ```bash
-    npm test
-    ```
--   **Visual Regression**:
-    ```bash
-    ./scripts/visual-check.sh
-    ```
-
----
-
-## 🎬 Demo Script
-
-If presenting this project, follow this flow:
-1.  **Intro**: "This is the Axiom Pulse Replica, a high-performance trading dashboard."
-2.  **Live Updates**: Point out the price flashes and the "Created Time" counting up second-by-second.
-3.  **New Tokens**: Watch the "New Pairs" column for a few seconds to see a new token appear at the top.
-4.  **Hover Interaction**: Hover over a token image to reveal the detailed Info Card.
-5.  **Responsiveness**: Resize the window to show how columns stack on mobile.
